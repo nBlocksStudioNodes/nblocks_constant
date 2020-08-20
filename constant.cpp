@@ -23,7 +23,7 @@ nBlock_Constant :: nBlock_Constant(uint32_t value): _constant_value (value){  //
 * 
 */
 
-void nBlock_Constant :: triggerInput(uint32_t inputNumber,uint32_t value){
+void nBlock_Constant :: triggerInput(nBlocks_Message message){
 	
 	
 	//todo not sure if a constant requires a trigger input put trigger input code into endframe so value is outputted constantly

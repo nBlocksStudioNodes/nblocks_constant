@@ -17,7 +17,7 @@ class nBlock_Constant: public nBlockSimpleNode<1>{
 	
 		nBlock_Constant(uint32_t value);
 	
-		void triggerInput(uint32_t inputNumber, uint32_t value);
+		void triggerInput(nBlocks_Message message);
 		void endFrame();
 	
 	
